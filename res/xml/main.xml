@@ -62,24 +62,6 @@
             android:title="@string/cabc_title" />
 
         <SwitchPreference
-            android:icon="@drawable/dc_mode_icon"
-            android:key="dc"
-            android:summary="@string/dc_mode_summary"
-            android:title="@string/dc_mode_title" />
-
-        <SwitchPreference
-            android:key="hbm"
-            android:icon="@drawable/ic_hbm"
-            android:summary="@string/hbm_mode_summary"
-            android:title="@string/hbm_mode_title" />
-
-        <SwitchPreference
-            android:icon="@drawable/srgb_mode_icon"
-            android:key="srgb"
-            android:summary="@string/srgb_mode_summary"
-            android:title="@string/srgb_mode_title" />
-
-        <SwitchPreference
             android:icon="@drawable/game_mode_icon"
             android:key="game"
             android:summary="@string/game_mode_summary"
@@ -138,12 +120,5 @@
             android:key="otg"
             android:summary="@string/otg_mode_summary"
             android:title="@string/otg_mode_title" />
-
-        <SwitchPreference
-            android:icon="@drawable/fps_info_icon"
-            android:key="fps_info"
-            android:title="@string/fps_info_title"
-            android:summary="@string/fps_info_summary"
-            android:persistent="true" />
     </PreferenceCategory>
 </PreferenceScreen>
